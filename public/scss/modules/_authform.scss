@@ -1,0 +1,10 @@
+.authform {
+    width: 60%;
+    max-width: 25rem;
+    margin: 0 auto;
+
+    &__input {
+        display: block;
+        width: 100%;
+    }
+}

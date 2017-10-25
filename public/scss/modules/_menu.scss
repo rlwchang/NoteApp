@@ -1,0 +1,31 @@
+.menu {
+    background-color: $mainBlue;
+    clear: both;
+    overflow: auto;
+    color: $mainWhite;
+
+    &__container {
+        margin: 0;
+    }
+
+    &__item {
+        float: left;
+        text-decoration: none;
+        list-style: none;
+        padding: 1rem;
+        border: 1px solid black;
+
+        &:hover, &:active {
+            background-color: $activeBlue;
+            color: $activeWhite;
+        }
+    }
+
+    &__item--brand {
+        font-size: 2rem;
+    }
+
+    &__item--right {
+        float: right;
+    }
+}

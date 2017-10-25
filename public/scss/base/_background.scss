@@ -1,0 +1,20 @@
+.background--notepad {
+    height: 85vh;
+    position: relative;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/notepad-xs.jpg');
+
+    @include atSmall {
+        background-image: url('../images/notepad-sm.jpg');
+    }
+
+    @include atMedium {
+        background-image: url('../images/notepad-md.jpg');
+    }
+
+    @include atLarge {
+        background-image: url('../images/notepad-lg2.jpg');
+    }
+}
